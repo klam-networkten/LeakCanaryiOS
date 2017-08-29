@@ -100,7 +100,7 @@ static inline void range_callback(task_t task,
                                                  MALLOC_PTR_IN_USE_RANGE_TYPE,
                                                  (vm_address_t)zone,
                                                  memory_reader,
-                                                 range_callback);
+                                                 &range_callback);
                 } else {
                     break;
                 }
